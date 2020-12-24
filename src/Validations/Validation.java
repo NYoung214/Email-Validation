@@ -50,7 +50,7 @@ public class Validation {
 					emailList.operate(user);
 					break;
 				case "2":
-					emailList.add(user);
+					emailList.add(user.toLowerCase());
 					System.out.println(user + " was successfully added to the email list.");
 					break;
 				case "3":
